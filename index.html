@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<!--Custom-Theme-files-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--//Custom-Theme-files-->
+<!--js-->
+<script src="js/jquery-1.11.1.min.js"></script> 
+<!--//js-->
+<!--start-smoth-scrolling-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+<!--start-smoth-scrolling-->
+<!--pop-up-box-->
+		<script type="text/javascript" src="js/modernizr.custom.53451.js"></script>  
+		<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all"/>
+		<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+		 <script>
+						$(document).ready(function() {
+						$('.popup-with-zoom-anim').magnificPopup({
+							type: 'inline',
+							fixedContentPos: false,
+							fixedBgPos: true,
+							overflowY: 'auto',
+							closeBtnInside: true,
+							preloader: false,
+							midClick: true,
+							removalDelay: 300,
+							mainClass: 'my-mfp-zoom-in'
+						});																
+						});
+				</script>	
+	<!--pop-up-box-->
+</head>
+<body>
+	<!--banner-->
+	<div id="home" class="banner">
+		<div class="container">
+			<div class="header-info">
+					<div class="logo">
+						<h1 class="logo-head"><a href="index.html" >我的网页</a></h1>
+					</div>
+				<div class="header-info-right">
+					<div class=" top-nav">
+				<span class="menu"><img src="images/menu.png" alt=""/></span>
+				<ul class="nav1">
+					<li><a href="index.html" class="active">Home</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="codes.html">Codes</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>	
+				<!-- script-for-menu -->
+				 <script>
+				   $( "span.menu" ).click(function() {
+					 $( "ul.nav1" ).slideToggle( 300, function() {
+					 // Animation complete.
+					  });
+					 });
+				</script>
+				<!-- /script-for-menu -->
+			</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="banner-text">
+				<div class="banner-left animated wow fadeInRight" data-wow-duration="1000ms">
+					<h2>个人档案</h2>
+					<h3></h3>
+					<p></p>
+					
+				</div>	
+				<div class="b-right animated wow fadeInLeft" data-wow-duration="1000ms">
+					<div class="b1">
+						<h4>姓名</h4>
+						<p>雷波</p>
+					</div>
+					<div class="b2">
+						<h4>性别</h4>
+						<p>男</p>
+					</div>
+					<div class="b2">
+						<h4>年龄</h4>
+						<p>20</p>
+					</div>
+					<div class="b2">
+						<h4>班级</h4>
+						<p>计应二班</p>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="bnr-img animated wow fadeInDown" data-wow-duration="1000ms">
+				<img src="images/gg.png" alt="" />
+			</div>
+		</div>
+	</div>
+	<!--/header-banner-->
+	<!--script-nav -->	
+	<script>
+		$("span.menu").click(function(){
+			$("ul.navigatoin").slideToggle("300" , function(){
+			});
+		});
+	</script>
+	<!--class-starts-->	
+	<div class="class">
+		<div class="container">
+			<div class="class-top heading">
+				<h3>我的爱好</h3>
+			</div>
+			<div class="class-bottom">
+				<div class="col-md-4 class-left animated wow fadeInLeft" data-wow-duration="1000ms">
+					<figure>
+						<img src="images/c2.jpg" alt="" class="img_responsive">
+					</figure>
+
+					<h6>7PM - 9PM</h6>
+					<div class="c-btm">
+						<h4>篮球</h4>
+						<p> 打篮球可以增强心脏功能。经常打篮球运动，可以有效的增强心脏功能，增强心脏活力，从长远来讲它可以延长人的寿命。</p>
+					</div>
+				</div>
+				<div class="col-md-4 class-left animated wow fadeInUp" data-wow-duration="1000ms">
+						<figure>
+						<img src="images/c1.jpg" alt="" class="img_responsive">
+					</figure>
+					<h6>10AM - 12PM</h6>
+					<div class="c-btm">
+						<h4>游泳</h4>
+						<p> 有利于促进减肥：游泳可以提高新陈代谢，在水下，身体和水之间会产生阻力，可以让松弛的皮肤越来越紧，有助于身体塑型,让你身材更完美。</p>
+					</div>
+				</div>
+				<div class="col-md-4 class-left animated wow fadeInRight" data-wow-duration="1000ms">
+						<figure>
+						<img src="images/c3.jpg" alt="" class="img_responsive">
+					</figure>
+					<h6>4PM - 6PM</h6>
+					<div class="c-btm">
+						<h4>跑跑步</h4>
+						<p> 生命在于运动，在于生生不息，跑步可以使人心情愉快，身体得到锻炼</p>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!--class-end-->
+	<div class="tlinks">Collect from <a href="http://www.cssmoban.com/"  title="网站模板">网站模板</a></div>
+	<!--features-starts-->
+	<div class="features">
+		<div class="container">
+			<div class="features-top heading1">
+				<h3>游戏爱好</h3>
+			</div>
+			<div class="features-bottom">
+				<div class="col-md-4 feature-left animated wow fadeInRight" data-wow-duration="1000ms">
+					<div class="feature-one">
+						<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+						<h4 class="">英雄联盟</h4>
+						<p> 大家应该知道Riot Games设计LOL英雄的时候，很多英雄都是以Riot公司内部员工为原型的，那么这些英雄的原型到底是谁?还有英雄联盟在设计的时候也有很多不为人知的小故事</p>
+					</div>
+				</div>
+				<div class="col-md-4 feature-left animated wow fadeInDown" data-wow-duration="1000ms">
+					<div class="feature-one">
+						<span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+						<h4>穿越火线</h4>
+						<p>早在保卫者佣兵公司成立之初，便开始公开招募从各个著名特种部队中退役的队员。这家佣兵公司以维护和平为名义，服务于强势国家。他们宣称自己拥有最正义的立场，如果战斗违背了他们的信念，即使有再多金钱的诱惑，他们也决不为所动。
+
+然而，保卫者从不透露他们进行的每一场战斗的具体情况，甚至对内部成员也不愿多说。</p>
+					</div>
+				</div>
+				<div class="col-md-4 feature-left animated wow fadeInRight" data-wow-duration="1000ms">
+					<div class="feature-one">
+						<span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+						<h4>王者荣耀</h4>
+						<p>王者大陆诞生之前，曾存在于时空中的久远星球上。智慧的人类创造出无比璀璨的文明。庄周从他的梦中回到这里：高耸入云的建筑，不用马拉的车子，以及长翼的铁鸟，令人无比惊叹。</p>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!--features-end-->
+	<!--training-starts-->
+	<div class="train animated wow fadeInRight" data-wow-duration="1000ms">
+		<div class="container">
+			<div class="train-top">
+				<h3>Start Your Fitness Training</h3>
+				<a class="play-icon popup-with-zoom-anim" href="#small-dialog5"><span> </span></a><br />
+			</div>
+		</div>
+	</div>
+	<!--training-end-->	
+	<!--people-starts-->
+	<div class="people">
+		<div class="container">
+			<div class="people-top heading2">
+				<h3>喜欢的偶像</h3>
+			</div>
+			<div class="people-bottom">
+				<section class="slider">
+					<div class="flexslider">
+						<ul class="slides">
+							<li>
+								<div class="people-one">
+									<div class="p-btm">
+										<img src="images/pi.jpg" alt="" />
+										<div class="p1">
+											<h4>迈克尔·杰克逊</h4>
+											<h6></h6>
+										</div>
+									</div>
+									<p>Michael，1958年8月29日在美国印第安纳州加里市出生，美国歌手、词曲创作人、舞蹈家、表演家、慈善家、音乐家、人道主义者、和平主义者、慈善机构创办人</p>
+								</div>
+							</li>
+							<li>
+								<div class="people-one">
+									<div class="p-btm">
+										<img src="images/pi1.jpg" alt="" />
+										<div class="p1">
+											<h4>周杰伦</h4>
+											<h6></h6>
+										</div>
+									</div>
+									<p>周杰伦，1979年1月18日出生于台湾省新北市，中国台湾流行乐男歌手、音乐人、演员、导演、编剧、监制、商人</p>
+								</div>
+							</li>
+							<li>
+								<div class="people-one">
+									<div class="p-btm">
+										<img src="images/pi2.jpg" alt="" />
+										<div class="p1">
+											<h4>林允儿</h4>
+											<h6></h6>
+										</div>
+									</div>
+									<p>林允儿（Yoona）[1]，1990年5月30日出生于韩国首尔，韩国女歌手、演员、主持人，女子演唱团体少女时代成员之一。</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>		
+	<!--people-end-->
+	<!--FlexSlider-->
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+	<script defer src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript">
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+	<!--End-slider-script-->
+	<!--letter-starts-->
+	<div class="letter">
+		<div class="container">
+			<div class="letter-top heading3">
+				<h3>完美结束</h3>
+			</div>
+			<div class="letter-bottom">
+				<div class="col-md-8 letter-left animated wow fadeInRight" data-wow-duration="1000ms">
+					<form>
+						<input type="text" value="Enter Your qq" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Your qq';}">
+						<input type="qq" value="2697636745">
+					</form>
+				</div>
+				<div class="col-md-4 letter-right animated wow fadeInLeft" data-wow-duration="1000ms">
+					<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+					<p>15202379030</p>
+				</div>
+				<div class="letter-bottom"></div>
+			</div>
+		</div>
+	</div>
+	<!--letter-end-->
+	<!--footer-starts-->
+	<div class="footer animated wow fadeInDown" data-wow-duration="1000ms">
+		<div class="container">
+			<div class="footer-top">
+				<ul>
+					<li><a href="#"><span class="fb"></span></a></li>
+					<li><a href="#"><span class="twit"></span></a></li>
+					<li><a href="#"><span class="drbl"></span></a></li>
+					<li><a href="#"><span class="rss"></span></a></li>
+				</ul>
+				<p> &copy; <a href="http://www.cssmoban.com/" target="_blank" title="模板之家"></a> - leibo <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">个人档案</a></p>
+			</div>
+		</div>
+	</div>
+	<!--footer-end-->
+	<!-- animated-css -->
+		<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+		<script src="js/wow.min.js"></script>
+		<script>
+		 new WOW().init();
+		</script>
+<!-- animated-css -->
+
+</body>
+</html>
